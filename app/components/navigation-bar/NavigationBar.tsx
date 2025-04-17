@@ -1,4 +1,3 @@
-
 "use client";
 import { useEffect, useState } from "react";
 import { Sun, Moon, Menu, X } from "lucide-react";

@@ -95,7 +95,7 @@ export default function ContactPage() {
 
       <motion.form
         onSubmit={handleSubmit}
-        action="https://formsubmit.co/133d8bc61b6157db08b8359eb48bf732"
+        action="https://formsubmit.co/kethangowda003@gmail.com"
         method="POST"
         className="w-full max-w-lg bg-base-200 shadow-lg rounded-xl p-8 space-y-6"
         initial={{ opacity: 0, y: 40 }}
