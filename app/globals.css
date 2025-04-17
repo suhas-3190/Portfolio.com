@@ -2,6 +2,7 @@
 @plugin "daisyui" {
   themes: false;
 }
+
 html {
     scroll-behavior: smooth;
     transition: all 0.3s ease;

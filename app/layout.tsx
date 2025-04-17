@@ -2,15 +2,20 @@
 import { PropsWithChildren } from "react";
 import "./globals.css";
 import ThemeProvider from "./components/ThemeProvider";
+import { Inter } from "next/font/google";
 import NavigationBar from "./components/navigation-bar/NavigationBar";
 
+const inter = Inter({
+  subsets: ["latin"],
+});
 
 
 const RootLayout = ( props : PropsWithChildren) =>{
 
+
   return (
     <html  suppressHydrationWarning >
-      <body> 
+      <body className={inter.className}> 
           
       <ThemeProvider  >
            <div>
