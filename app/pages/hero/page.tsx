@@ -102,7 +102,7 @@ const Hero = () => {
           href="https://github.com/Kethan3"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-gray-300 hover:text-white transition flex items-center gap-2"
+          className="text-gray-300 hover:text-red transition flex items-center gap-2"
           aria-label="GitHub Profile"
         >
           <FontAwesomeIcon icon={faGithub} className="text-xl" />
@@ -113,7 +113,7 @@ const Hero = () => {
           href="https://www.linkedin.com/in/kethan-gowda-51657224b"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-gray-300 hover:text-white transition flex items-center gap-2"
+          className="text-gray-300 hover:text-red transition flex items-center gap-2"
           aria-label="LinkedIn Profile"
         >
           <FontAwesomeIcon icon={faLinkedin} className="text-xl" />
@@ -124,7 +124,7 @@ const Hero = () => {
           href="https://www.instagram.com/kethan2003/#"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-gray-300 hover:text-white transition"
+          className="text-gray-300 hover:text-red transition"
           aria-label="Instagram Profile"
         >
           <FontAwesomeIcon icon={faInstagram} className="text-xl" />
