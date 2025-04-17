@@ -83,8 +83,6 @@
 //   );
 // }
 
-
-
 'use client';
 
 import { useState } from 'react';
@@ -94,7 +92,7 @@ import toast from 'react-hot-toast';
 export default function ContactPage() {
   const [loading, setLoading] = useState(false);
 
-  const handleSubmit = async (_e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async () => {
     setLoading(true);
     toast.success('Message sent successfully!');
     setTimeout(() => setLoading(false), 2000);
