@@ -55,7 +55,7 @@ const Hero = () => {
           href="https://www.instagram.com/kethan2003/#"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-gray-500 hover:text-red-500 transition"
+          className="text-gray-500 hover:text-red-500 transition flex items-center gap-2"
           aria-label="Instagram Profile"
         >
           <FontAwesomeIcon icon={faInstagram} className="text-xl" />
