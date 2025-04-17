@@ -1,72 +1,3 @@
-// "use client";
-
-
-// import { faGithub, faLinkedin, faInstagram } from "@fortawesome/free-brands-svg-icons";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-// const Hero = () => {
-
-//   return (
-//     <section
-//       id="profile"
-//       className="min-h-[80vh] flex flex-col items-center justify-center px-4 pb-2 transition-all"
-//     >
-//       {/* Profile Picture */}
-//       <img
-//         src="/kethanpfp2.jpg"
-//         alt="Profile"
-//         className="w-40 h-40 rounded-full border-4 border-white shadow-lg mb-6"
-//       />
-
-//       {/* Name and Title */}
-//       <h1 className="text-4xl md:text-5xl font-bold mb-2 text-center">
-//         Kethan Gowda N
-//       </h1>
-//       <p className="text-lg md:text-xl text-gray-400 mb-4 text-center">
-//         Fullstack AI Developer | React • Hono • Tailwind • Prisma • Azure
-//       </p>
-
-//       {/* Social Media Links */}
-//       <div className="flex gap-4 mt-4">
-//         <a
-//           href="https://github.com/Kethan3"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//           className="text-gray-300 hover:text-white transition flex items-center gap-2"
-//         >
-//           <FontAwesomeIcon icon={faGithub} className="text-xl" />
-//           <span>GitHub</span>
-//         </a>
-
-//         <a
-//           href="https://www.linkedin.com/in/kethan-gowda-51657224b"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//           className="text-gray-300 hover:text-white transition flex items-center gap-2"
-//         >
-//           <FontAwesomeIcon icon={faLinkedin} className="text-xl" />
-//           <span>LinkedIn</span>
-//         </a>
-
-//         <a
-//           href="https://www.instagram.com/kethan2003/#"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//           className="text-gray-300 hover:text-white transition"
-//         >
-//           <span className="flex items-center gap-2">
-//             <FontAwesomeIcon icon={faInstagram} className="text-xl" />
-//             Instagram
-//           </span>
-//         </a>
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default Hero;
-
-
 'use client';
 
 import Image from 'next/image';
@@ -102,7 +33,7 @@ const Hero = () => {
           href="https://github.com/Kethan3"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-gray-300 hover:text-red transition flex items-center gap-2"
+          className="text-gray-500 hover:text-red-500 transition flex items-center gap-2"
           aria-label="GitHub Profile"
         >
           <FontAwesomeIcon icon={faGithub} className="text-xl" />
@@ -113,7 +44,7 @@ const Hero = () => {
           href="https://www.linkedin.com/in/kethan-gowda-51657224b"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-gray-300 hover:text-red transition flex items-center gap-2"
+          className="text-gray-500 hover:text-red-500 transition flex items-center gap-2"
           aria-label="LinkedIn Profile"
         >
           <FontAwesomeIcon icon={faLinkedin} className="text-xl" />
@@ -124,7 +55,7 @@ const Hero = () => {
           href="https://www.instagram.com/kethan2003/#"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-gray-300 hover:text-red transition"
+          className="text-gray-500 hover:text-red-500 transition"
           aria-label="Instagram Profile"
         >
           <FontAwesomeIcon icon={faInstagram} className="text-xl" />
