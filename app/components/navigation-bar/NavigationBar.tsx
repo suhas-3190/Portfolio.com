@@ -125,7 +125,7 @@ const NavigationBar = () => {
   if (!mounted) return null;
 
   return (
-    <nav className="sticky top-0 z-50 w-full bg-white/10 dark:bg-black/30 backdrop-blur-md shadow-md transition-colors duration-300">
+    <nav className="sticky top-0 z-50 w-full ">
       <div className="container mx-auto flex justify-between items-center px-4 py-4">
         <a className="text-2xl font-bold">Kethan Gowda N</a>
 
