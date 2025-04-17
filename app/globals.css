@@ -1,26 +1,22 @@
 @import "tailwindcss";
-@plugin "daisyui";
-
+@plugin "daisyui" {
+  themes: false;
+}
 html {
     scroll-behavior: smooth;
+    transition: all 0.3s ease;
   }
 
-/* html[data-theme="dark"] {
-    background-color: #000000;
-  } */
-
+ 
 
   html[data-theme="dark"] {
-    background-color: #1a1a1a; /* Dark mode background */
+    background-color: #000000; 
     color: white;
   }
   
   html[data-theme="light"] {
-    background-color: #ffffff; /* Light mode background */
+    background-color: #ffffff; 
     color: black;
   }
   
-  html {
-      scroll-behavior: smooth;
-      transition: all 0.3s ease;
-    }
+

@@ -1,15 +1,10 @@
 "use client";
 
 
-import {
-  faGithub,
-  faLinkedin,
-  faInstagram,
-} from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Hero = () => {
-
 
   return (
     <section
@@ -37,18 +32,20 @@ const Hero = () => {
           href="https://github.com/Kethan3"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-gray-300 hover:text-white transition"
+          className="text-gray-300 hover:text-white transition flex items-center gap-2"
         >
-          <FontAwesomeIcon icon={faGithub} className="text-xl" /> GitHub
+          <FontAwesomeIcon icon={faGithub} className="text-xl" />
+          <span>GitHub</span>
         </a>
 
         <a
           href="https://www.linkedin.com/in/kethan-gowda-51657224b"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-gray-300 hover:text-white transition"
+          className="text-gray-300 hover:text-white transition flex items-center gap-2"
         >
-          <FontAwesomeIcon icon={faLinkedin} className="text-xl" /> LinkedIn
+          <FontAwesomeIcon icon={faLinkedin} className="text-xl" />
+          <span>LinkedIn</span>
         </a>
 
         <a
@@ -57,7 +54,10 @@ const Hero = () => {
           rel="noopener noreferrer"
           className="text-gray-300 hover:text-white transition"
         >
-          <FontAwesomeIcon icon={faInstagram} className="text-xl" /> Instagram
+          <span className="flex items-center gap-2">
+            <FontAwesomeIcon icon={faInstagram} className="text-xl" />
+            Instagram
+          </span>
         </a>
       </div>
     </section>

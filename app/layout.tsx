@@ -2,15 +2,20 @@
 import { PropsWithChildren } from "react";
 import "./globals.css";
 import ThemeProvider from "./components/ThemeProvider";
+import NavigationBar from "./components/navigation-bar/NavigationBar";
 
 
 
 const RootLayout = ( props : PropsWithChildren) =>{
 
   return (
-    <html  className="dark" suppressHydrationWarning >
-      <body>
-      <ThemeProvider >
+    <html  suppressHydrationWarning >
+      <body> 
+          
+      <ThemeProvider  >
+           <div>
+           <NavigationBar/>
+           </div>
           {props.children}
         </ThemeProvider>
       </body>
