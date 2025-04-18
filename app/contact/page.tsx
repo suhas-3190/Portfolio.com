@@ -1,15 +1,15 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import { motion } from 'framer-motion';
-import toast from 'react-hot-toast';
+import { useState } from "react";
+import { motion } from "framer-motion";
+import toast from "react-hot-toast";
 
 export default function ContactPage() {
   const [loading, setLoading] = useState(false);
 
   const handleSubmit = async () => {
     setLoading(true);
-    toast.success('Message sent successfully!');
+    toast.success("Message sent successfully!");
     setTimeout(() => setLoading(false), 2000);
   };
 
@@ -19,9 +19,11 @@ export default function ContactPage() {
       className="min-h-screen px-6 py-16 flex flex-col items-center justify-center bg-base-100 text-base-content"
       initial={{ opacity: 0, y: 40 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.6, ease: 'easeOut' }}
+      transition={{ duration: 0.6, ease: "easeOut" }}
     >
-      <h2 className="text-3xl md:text-4xl font-bold mb-8 text-primary">Contact Me</h2>
+      <h2 className="text-3xl md:text-4xl font-bold mb-8 text-primary">
+        Contact Me
+      </h2>
 
       <motion.form
         onSubmit={handleSubmit}
@@ -32,7 +34,6 @@ export default function ContactPage() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.2 }}
       >
-        {/* Hidden inputs for FormSubmit options */}
         <input type="hidden" name="_captcha" value="false" />
         <input type="hidden" name="_template" value="table" />
         <input
@@ -42,7 +43,9 @@ export default function ContactPage() {
         />
 
         <div>
-          <label htmlFor="name" className="label text-base-content">Name</label>
+          <label htmlFor="name" className="label text-base-content">
+            Name
+          </label>
           <input
             type="text"
             id="name"
@@ -53,7 +56,9 @@ export default function ContactPage() {
         </div>
 
         <div>
-          <label htmlFor="email" className="label text-base-content">Email</label>
+          <label htmlFor="email" className="label text-base-content">
+            Email
+          </label>
           <input
             type="email"
             id="email"
@@ -64,7 +69,9 @@ export default function ContactPage() {
         </div>
 
         <div>
-          <label htmlFor="message" className="label text-base-content">Message</label>
+          <label htmlFor="message" className="label text-base-content">
+            Message
+          </label>
           <textarea
             id="message"
             name="message"
@@ -74,8 +81,12 @@ export default function ContactPage() {
           />
         </div>
 
-        <button type="submit" className="btn btn-primary w-full" disabled={loading}>
-          {loading ? 'Sending...' : 'Send Message'}
+        <button
+          type="submit"
+          className="btn btn-primary w-full"
+          disabled={loading}
+        >
+          {loading ? "Sending..." : "Send Message"}
         </button>
       </motion.form>
     </motion.section>
