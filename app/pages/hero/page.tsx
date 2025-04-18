@@ -69,7 +69,6 @@
 // export default Hero;
 
 
-
 'use client';
 
 import Image from 'next/image';
@@ -134,7 +133,7 @@ const Hero = () => {
           href="https://github.com/Kethan3"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-base-content/70 hover:text-primary transition-all flex items-center gap-2"
+          className="text-base-content/70 hover:text-red-500 transition-all flex items-center gap-2"
           aria-label="GitHub Profile"
         >
           <FontAwesomeIcon icon={faGithub} className="text-2xl" />
@@ -145,7 +144,7 @@ const Hero = () => {
           href="https://www.linkedin.com/in/kethan-gowda-51657224b"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-base-content/70 hover:text-primary transition-all flex items-center gap-2"
+          className="text-base-content/70 hover:text-red-500 transition-all flex items-center gap-2"
           aria-label="LinkedIn Profile"
         >
           <FontAwesomeIcon icon={faLinkedin} className="text-2xl" />
@@ -156,7 +155,7 @@ const Hero = () => {
           href="https://www.instagram.com/kethan2003/#"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-base-content/70 hover:text-primary transition-all flex items-center gap-2"
+          className="text-base-content/70 hover:text-red-500 transition-all flex items-center gap-2"
           aria-label="Instagram Profile"
         >
           <FontAwesomeIcon icon={faInstagram} className="text-2xl" />
