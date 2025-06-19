@@ -13,12 +13,12 @@ const inter = Inter({
 
 
 export const metadata: Metadata = {
-  title: "Kethan Gowda N",
+  title: "SUhas Y Sunkad",
   openGraph: {
-    title: "Kethan Gowda N - Fullstack AI Developer",
-    description: "Welcome to the portfolio of Kethan Gowda N. Explore my work as a Fullstack AI Developer.",
+    title: "SUhas Y Sunakd - Fullstack AI Developer",
+    description: "Welcome to the portfolio of SUhas Y Sunkad. Explore my work as a Fullstack AI Developer.",
     images: {
-      url: "https://kethan3.vercel.app/kethanpfp2.jpg", 
+      url: "C:\Users\suhas\Downloads\Suhas_Profile_picture.jpeg", 
       width: 1200,
       height: 628,
     },

@@ -11,16 +11,16 @@ type EducationItem = {
 
 const education: EducationItem[] = [
   {
-    degree: "Bachelor of Engineering in Computer Science",
+    degree: "Bachelor of Engineering in Artificial Intelligence and Data Science",
     institution: "Siddaganga Institute Of Technology",
     period: "2021 - 2025",
-    details: "9.16 CGPA",
+    details: "7.8 CGPA",
   },
   {
     degree: "Pre-University Course",
-    institution: "Sri Sapthagiri PU College",
+    institution: "Vidyaniketan PU College",
     period: "2019 - 2021",
-    details: "98.50 %",
+    details: "87.50 %",
   },
 ];
 

@@ -27,7 +27,7 @@ const AboutPage = () => {
         transition={{ delay: 0.4, duration: 0.6 }}
       >
         I&apos;m{" "}
-        <span className="font-semibold text-primary">Kethan Gowda</span>, a
+        <span className="font-semibold text-primary">Suhas Y Sunkad</span>, a
         passionate Fullstack AI Developer Intern currently working at{" "}
         <a
           href="https://stacklane.co/"

@@ -25,8 +25,8 @@ const Hero = () => {
         className="relative mb-6"
       >
         <Image
-          src="/kethanpfp2.jpg"
-          alt="Kethan Gowda N Profile Picture"
+          src="/suhaspfp2.jpeg"
+          alt="Suhas Y Sunkad Profile Picture"
           width={160}
           height={160}
           className="rounded-full border-4 border-primary shadow-xl hover:scale-105 transition-all duration-300"
@@ -40,7 +40,7 @@ const Hero = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.4 }}
       >
-        Kethan Gowda N
+        Suhas Y Sunkad
       </motion.h1>
 
       <motion.p
@@ -59,7 +59,7 @@ const Hero = () => {
         transition={{ delay: 0.8 }}
       >
         <a
-          href="https://github.com/Kethan3"
+          href="https://github.com/suhas-3190"
           target="_blank"
           rel="noopener noreferrer"
           className="text-base-content/70 hover:text-red-500 transition-all flex items-center gap-2"
@@ -70,7 +70,7 @@ const Hero = () => {
         </a>
 
         <a
-          href="https://www.linkedin.com/in/kethan-gowda-51657224b"
+          href="https://www.linkedin.com/in/suhas-y-sunkad-82780b24b/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-base-content/70 hover:text-red-500 transition-all flex items-center gap-2"
@@ -81,7 +81,7 @@ const Hero = () => {
         </a>
 
         <a
-          href="https://www.instagram.com/kethan2003/#"
+          href="https://www.instagram.com/suhasy_3190/#"
           target="_blank"
           rel="noopener noreferrer"
           className="text-base-content/70 hover:text-red-500 transition-all flex items-center gap-2"

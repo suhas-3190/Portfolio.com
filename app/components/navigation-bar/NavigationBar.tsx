@@ -40,7 +40,7 @@ const NavigationBar = () => {
           href="/"
           className={`text-2xl font-bold ${themeClass} hover:opacity-80 transition duration-200`}
         >
-          Kethan Gowda N
+          Suhas Y Sunkad
         </Link>
 
         <div className="hidden md:flex items-center space-x-6 ml-auto">
